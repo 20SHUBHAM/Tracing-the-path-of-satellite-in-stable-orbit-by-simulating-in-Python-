@@ -1,12 +1,16 @@
-Satellite Orbit Simulation Project
-Introduction
+Tracing the path of satellite in stable orbit by simulating in Python
+
+
+#Introduction
 This project simulates the stable orbits of planets in our solar system using Python. The project explores central forces, numerical methods, and classical mechanics concepts to trace the paths of planets around the sun. The core objective is to solve differential equations governing planetary motion and visualize the orbits using Python libraries.
 
-Study Areas
+#Study Areas
+
 Numerical methods to solve differential equations (finite difference method).
 Visualization of planetary trajectories using Python.
 Classical mechanics concepts related to central forces and angular momentum.
-Concepts Used
+
+#Concepts Used : 
 Central Forces and Conservation of Angular Momentum
 Central forces are conservative and depend only on the distance between particles.
 The motion of planets is modeled by separating the center of mass and relative motion.
@@ -17,10 +21,11 @@ Converts differential equations into algebraic equations for easier solution.
 Gravitational Force Calculation
 Newton's law of gravitation is used to calculate the force on each planet due to others.
 Differential equations are solved to determine the coordinates of planetary orbits.
-Code Explanation
+
+#Code Explanation :
 The code is implemented in Python, utilizing the finite difference method to calculate and plot the orbits of planets. Initially, the orbit of a single planet is plotted, and later the concept is extended to multiple planets.
 
-Steps Involved:
+#Steps Involved:
 Initialize Parameters: Initial positions, velocities, and masses of the planets are set based on known data.
 Finite Difference Method:
 Calculate new positions and velocities using finite difference approximations.
@@ -28,9 +33,8 @@ Consider the interaction forces between planets.
 Plot Trajectories:
 The x and y coordinates are plotted using Matplotlib.
 Iteratively repeat the process for all planets and frames.
-Code Snippet
-python
-Copy code
+#Code Snippet
+
 import matplotlib.pyplot as plt
 
 # Constants
